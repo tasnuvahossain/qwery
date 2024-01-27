@@ -1,0 +1,403 @@
+ /* ========================common css start==================== */
+ *{
+padding: 0;
+margin: 0;
+ }
+ body{
+background-color: black;
+font-family: 'Open Sans', sans-serif;
+ }
+ 
+ /* ========================common css end==================== */
+ /* ========================banner_part css start==================== */
+ #banner_part{
+    width: 1920px;
+    height: 1196px;
+
+ }
+ #banner_part .contaner {
+    width: 1920px;
+    height: 1196px;
+background-image: url(./imgs/cover.png);
+ }
+ #banner_part nav{
+    display: flex;
+    padding-top: 28px;
+ }
+ #banner_part nav img{
+    width: 87px;
+    height: 33px;
+ margin-left: 300px;
+ margin-right: 595px;
+
+
+ }
+ #banner_part nav ul{
+   
+    height: 26px;
+    display: flex;
+    gap: 60px;
+
+ }
+ #banner_part nav ul li{
+    list-style: none;
+    color:#FFFFFF;
+   font-weight: 600;
+   font-size: 18px;
+   text-transform: capitalize;
+   transition: .4s;
+ }
+ #banner_part nav ul li:hover{
+ color: black;
+ }
+ #banner_part .text{
+  width: 860px;
+  height:  272px;
+margin-left: 300px;
+
+margin-top: 462px;
+ } 
+ #banner_part .text h4{
+
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 25px;
+   letter-spacing: 7px;
+    color:  #FFC178;
+    padding-bottom: 37px;
+
+ }
+ #banner_part .text h1{
+
+   font-size: 96px;
+   font-weight: 700;
+   line-height: 100px;
+    color: #FFFFFF;
+ }   
+ #banner_part .text h2{
+
+   font-size: 88px;
+   font-weight: 400;
+   line-height: 100px;
+   line-height: 100px;
+   color: #FFFFFF;
+ }   
+ /* ========================banner_part css end==================== */
+ /* ========================about_part css start==================== */
+ #about .contaner{
+  padding-left: 300px;
+  width: 1320px;
+  height: 809px;
+  display: flex;
+  padding-top: 319px;
+  gap: 23px;}
+
+
+   
+  
+    #about img  {
+      
+      width: 649px;
+
+      height: 713px;
+       }
+
+ #about .about_text h4{
+   color: #FFC178;
+   font-weight: 700;font-size: 18px;
+   line-height: 25px;
+   letter-spacing: 6px;
+padding-top: 45px;
+   text-transform: uppercase;
+   padding-bottom: 13px;
+
+ }
+ #about .about_text h2{
+   color:  #FFFFFF;
+
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 100px;
+
+   text-transform: uppercase;
+width: 496px;
+padding-bottom: 13px;
+ }
+ #about .about_text p{
+   color: #FFC178;
+   font-weight: 600;font-size: 14px;
+   line-height: 32px;
+   color: #FFFFFF;
+width: 587px;
+height: 160px;
+
+   text-transform: uppercase;
+   padding-bottom: 66px;
+
+
+ }
+ #about .about_text a{
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+   text-transform: uppercase;
+   text-decoration: none;
+color:  #FBD784;
+
+padding-bottom: 161px;
+ }
+ /* ========================about_part css end==================== */
+ /* ========================culture_part css start==================== */
+#culture .contaner{
+   background-image: url(./imgs/image\ 2\ 1.jpg);
+   width:1320px ;
+   height: 965px;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+#culture{
+   padding-left: 304px;
+
+padding-top: 295px;
+}
+.culture_text {
+   width: 932px;
+height: 373px;
+padding-left: 194px;
+padding-top: 559px;
+text-align: center;
+
+}
+.culture_text h5{
+   font-weight: 700; 
+   height: 18px;
+   color:#FBD784;
+   text-transform: uppercase;
+   line-height: 25px;
+   letter-spacing: 6px;
+   text-align: center;
+   padding-bottom: 13px;
+}
+.culture_text h2{
+font-weight: 700px;
+font-size: 64px;
+line-height: 87px;
+color:#FFFFFF;
+text-transform: uppercase;
+width: 932px;
+height: 174px;
+text-align: center;
+padding-bottom: 14px;
+}.culture_text p{
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 32px;
+   text-align: center;
+   width: 893px;
+   height: 96px;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   padding-bottom: 26px;
+}
+#culture .culture_text a{
+
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 25px;
+   letter-spacing: 0px;
+   padding-bottom: 32px;
+   text-decoration: none;
+   color: #FBD784;
+   text-transform: uppercase;
+   
+}
+ /* ========================culture_part css end==================== */
+ /* ========================others_part css start==================== */
+
+ 
+ .others_part_contaner{
+   display: flex;
+   width: 1324px;
+   height: 799px;
+justify-content: space-between;
+align-items: center;
+padding-left: 298px;
+padding-top: 295px;
+ }
+ 
+.others_part_text{
+   width:663px ;
+   height: 492px;
+
+ }
+ .others_part_text h4{
+ 
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 25px;
+   letter-spacing: 6px;
+ color: #FBD784;
+ ;text-transform: uppercase;
+margin-bottom: 19px;
+ }
+ .others_part_text h2{
+  
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 87px;
+   color: #FFFFFF;
+   text-transform: uppercase;
+  margin-bottom: 19px;
+   
+ }
+ 
+.others_part_text p{
+   width:655px ;
+   height: 96px;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 32px;
+ color: #FFFFFF;
+ text-transform:uppercase ;
+ margin-bottom: 47px;
+
+ }
+ .others_part_text a{
+
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 25px;
+color:  #FBD784;
+text-decoration: none;
+text-transform: uppercase;
+
+   
+ }
+ #others_part img{
+width: 624px;
+height: 799px;
+ }
+ 
+/* =============================others_part css end========================= */
+/* =============================others_part css start========================= */
+#footer_part .footer_part_top{
+   display: flex;
+   justify-content: space-between;
+width: 1220px;
+
+}
+.footer_part_top h4{
+ color: #FFFFFF;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: -0.30000001192092896px;
+   text-align: left;
+   
+}
+.footer_part_top img{
+ width: 173px;
+ height: 65px;
+ padding-bottom: 82px;
+
+  }
+.footer_part_top div{
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  }
+
+
+#footer_part button{
+width: 232px;
+height: 59px;
+background-color: #FFC178;
+color: black;
+font-size: 17px;
+font-weight: 700;
+line-height: 23px;
+border: none;
+border-radius: 10px;
+margin-right: 20px;
+} 
+.footer_part_center h3{width: 404px;
+font-size: 36px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: -0.30000001192092896px;
+color: #FFFFFF;
+padding-bottom: 49px;text-transform: capitalize;
+}
+.footer_part_center h5{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: -0.20454545319080353px;
+   text-align: left;
+   color: #FFFFFF;
+   text-transform: capitalize;
+   }
+   .footer_part_right div{
+      font-family: Open Sans;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 27px;
+      letter-spacing: -0.23181818425655365px;
+      text-align: left;
+      margin-bottom: 12px;
+      color:#FFC178;
+   }
+   .footer_part_right ul{
+      color: #FFFFFF;
+      font-family: Open Sans;
+      font-size: 19px;
+      font-weight: 400;
+      letter-spacing: -0.20454545319080353px;
+      text-align: left;
+
+       } 
+.footer_part_right ul li{
+         color: #FFFFFF;
+         list-style: none;
+      padding-bottom: 9px;
+}
+.footer_part_right{
+   display: flex;
+
+}
+.footer_services{
+   margin-right: 84px;
+}
+.footer_about{
+   margin-right: 139px;
+}
+
+.footer_part2{
+   display: flex;
+  gap: 175px;
+}
+.footer_part3{
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+text-align: center;
+ color: #FFFFFF;
+padding-top: 154px;
+}
+.footer_part_contaner{
+   padding-top: 190px;
+   padding-left: 300px;
+   width: 1360px;
+   height: 580px;
+}
+.footer_part_contaner i{
+   color: #FFFFFF;
+   width: 13px
+}
+.footer_part_center ul{
+   display: flex;
+   gap:29px;
+   margin-top: 34px;
+}
+/* =============================footer_part css end========================= */
